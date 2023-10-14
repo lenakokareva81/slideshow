@@ -1,0 +1,22 @@
+
+
+@font-face {
+	font-family:'Hollies Webs'; 
+	src: local('Hollies Webs'),
+		url(./font/HolliesWebs-Regular.ttf); 
+}
+.name__slider{
+    font-family: 'Hollies Webs';
+    font-size: 50px;
+    display: flex;
+}
+.offer__slider {width:650px;margin-top:50px;display:flex;flex-direction:column;
+
+    align-items: center}
+.offer__slider-counter{ font-family: 'Hollies Webs';display:flex;width:180px;align-items:center;font-size:24px;color:rgba(0,0,0,.5)}
+.offer__slider-wrapper{width:100%;margin-top:15px;box-shadow:0 4px 30px rgba(0,0,0,.25)}
+.offer__slider-prev{margin-right:10px;cursor:pointer}
+.offer__slider-next{margin-left:10px;cursor:pointer}
+.offer__slider #current{font-size:48px;font-weight:700;color:#000}
+.offer__slide{width:100%;height:390px}
+.offer__slide img{width:100%;height:100%;object-fit:cover}
